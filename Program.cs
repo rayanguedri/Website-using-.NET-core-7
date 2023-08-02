@@ -1,6 +1,11 @@
+using Microsoft.EntityFrameworkCore;
+using SchoolManagement.MVC.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+var conn = builder.Configuration.GetConnectionString("ThreeSixtyDBConnection");
+builder.Services.AddDbContext<ThreeSixtyDbContext>(options => options.UseSqlServer(conn));
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
