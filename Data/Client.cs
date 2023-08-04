@@ -8,6 +8,7 @@ public partial class Client
 {
     public int Id { get; set; }
 
+
     public string Prenom { get; set; } = null!;
 
     public string Nom { get; set; } = null!;
@@ -16,11 +17,13 @@ public partial class Client
 [Phone]
 [MinLength(8)]
 [MaxLength(8)]
+[Display(Name = "Numéro de téléphone")]
     public string Phone { get; set; } = null!;
 
+[Display(Name = "Adresse")]
     public string Adress { get; set; } = null!;
 
     public string Ville { get; set; } = null!;
-
+[Display(Name = "Date de naissance")]
     public DateTime DateNaissance { get; set; }
 }
