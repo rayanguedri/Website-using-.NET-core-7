@@ -4,9 +4,9 @@
     ViewData["Title"] = "Edit";
 }
 
-<h1>Edit</h1>
+<h1>Edit Client</h1>
 
-<h4>Client</h4>
+
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -18,45 +18,50 @@
                 <input asp-for="Prenom" class="form-control" />
                 <span asp-validation-for="Prenom" class="text-danger"></span>
             </div>
+            <br>
             <div class="form-group">
                 <label asp-for="Nom" class="control-label"></label>
                 <input asp-for="Nom" class="form-control" />
                 <span asp-validation-for="Nom" class="text-danger"></span>
             </div>
+             <br>
             <div class="form-group">
                 <label asp-for="Email" class="control-label"></label>
                 <input asp-for="Email" class="form-control" />
                 <span asp-validation-for="Email" class="text-danger"></span>
             </div>
+             <br>
             <div class="form-group">
                 <label asp-for="Phone" class="control-label"></label>
                 <input asp-for="Phone" class="form-control" />
                 <span asp-validation-for="Phone" class="text-danger"></span>
             </div>
+             <br>
             <div class="form-group">
                 <label asp-for="Adress" class="control-label"></label>
                 <input asp-for="Adress" class="form-control" />
                 <span asp-validation-for="Adress" class="text-danger"></span>
             </div>
+             <br>
             <div class="form-group">
                 <label asp-for="Ville" class="control-label"></label>
                 <input asp-for="Ville" class="form-control" />
                 <span asp-validation-for="Ville" class="text-danger"></span>
             </div>
+             <br>
             <div class="form-group">
                 <label asp-for="DateNaissance" class="control-label"></label>
                 <input asp-for="DateNaissance" class="form-control" />
                 <span asp-validation-for="DateNaissance" class="text-danger"></span>
             </div>
+             <br>
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                <input type="submit" value="Save Changes" class="btn btn-warning" />
+                <a class="btn btn-dark" asp-action="Index">Back to List</a>
             </div>
+             
         </form>
     </div>
-</div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
 </div>
 
 @section Scripts {
