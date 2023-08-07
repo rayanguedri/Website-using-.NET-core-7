@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "lJTcN8EAvz8zr3seLmh2noCGTOp1SvMVjHz7G6uCzpqVuELcslAmSlqo/FhvewAEm+7EjEPygFiBc6TaBtemOw==",
+  "dgSpecHash": "6bzgoIsVL1FzmFLxRZ1N/8AMtuJAeJ5XY2N4dkuYSFKpM39h/YMgDxvVt0FJcm7ZFPf42+CzXFhDn/tcINyefA==",
   "success": true,
   "projectFilePath": "C:\\Users\\RYANG\\source\\repos\\SchoolManagement.MVC\\SchoolManagement.MVC.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\RYANG\\.nuget\\packages\\auth0.aspnetcore.authentication\\1.3.1\\auth0.aspnetcore.authentication.1.3.1.nupkg.sha512",
     "C:\\Users\\RYANG\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\RYANG\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\RYANG\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
@@ -56,6 +57,7 @@
     "C:\\Users\\RYANG\\.nuget\\packages\\humanizer.core.zh-cn\\2.14.1\\humanizer.core.zh-cn.2.14.1.nupkg.sha512",
     "C:\\Users\\RYANG\\.nuget\\packages\\humanizer.core.zh-hans\\2.14.1\\humanizer.core.zh-hans.2.14.1.nupkg.sha512",
     "C:\\Users\\RYANG\\.nuget\\packages\\humanizer.core.zh-hant\\2.14.1\\humanizer.core.zh-hant.2.14.1.nupkg.sha512",
+    "C:\\Users\\RYANG\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\7.0.9\\microsoft.aspnetcore.authentication.openidconnect.7.0.9.nupkg.sha512",
     "C:\\Users\\RYANG\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.11\\microsoft.aspnetcore.razor.language.6.0.11.nupkg.sha512",
     "C:\\Users\\RYANG\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\RYANG\\.nuget\\packages\\microsoft.build\\17.3.2\\microsoft.build.17.3.2.nupkg.sha512",

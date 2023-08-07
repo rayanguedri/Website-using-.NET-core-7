@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -19,6 +20,8 @@ namespace SchoolManagement.MVC.Controllers
         }
 
         // GET: Clients
+
+        [Authorize]
         public async Task<IActionResult> Index()
         {
               return _context.Clients != null ? 
@@ -27,6 +30,7 @@ namespace SchoolManagement.MVC.Controllers
         }
 
         // GET: Clients/Details/5
+        [Authorize]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.Clients == null)
@@ -45,6 +49,7 @@ namespace SchoolManagement.MVC.Controllers
         }
 
         // GET: Clients/Create
+        
         public IActionResult Create()
         {
             return View();
@@ -65,8 +70,10 @@ namespace SchoolManagement.MVC.Controllers
             }
             return View(client);
         }
+        
 
         // GET: Clients/Edit/5
+        [Authorize]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.Clients == null)
@@ -87,6 +94,7 @@ namespace SchoolManagement.MVC.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Prenom,Nom,Email,Phone,Adress,Ville,DateNaissance")] Client client)
         {
             if (id != client.Id)
@@ -118,6 +126,7 @@ namespace SchoolManagement.MVC.Controllers
         }
 
         // GET: Clients/Delete/5
+        [Authorize]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.Clients == null)
@@ -136,6 +145,7 @@ namespace SchoolManagement.MVC.Controllers
         }
 
         // POST: Clients/Delete/5
+        [Authorize]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
