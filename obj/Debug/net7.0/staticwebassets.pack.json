@@ -5,6 +5,18 @@
       "PackagePath": "staticwebassets\\SchoolManagement.MVC.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\RYANG\\source\\repos\\SchoolManagement.MVC\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\RYANG\\source\\repos\\SchoolManagement.MVC\\wwwroot\\css\\mainn.css",
+      "PackagePath": "staticwebassets\\css\\mainn.css"
+    },
+    {
+      "Id": "C:\\Users\\RYANG\\source\\repos\\SchoolManagement.MVC\\wwwroot\\css\\noscript.css",
+      "PackagePath": "staticwebassets\\css\\noscript.css"
+    },
+    {
       "Id": "C:\\Users\\RYANG\\source\\repos\\SchoolManagement.MVC\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -17,8 +29,52 @@
       "PackagePath": "staticwebassets\\images\\ad1.jpg"
     },
     {
+      "Id": "C:\\Users\\RYANG\\source\\repos\\SchoolManagement.MVC\\wwwroot\\js\\breakpoints.min.js",
+      "PackagePath": "staticwebassets\\js\\breakpoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\RYANG\\source\\repos\\SchoolManagement.MVC\\wwwroot\\js\\browser.min.js",
+      "PackagePath": "staticwebassets\\js\\browser.min.js"
+    },
+    {
+      "Id": "C:\\Users\\RYANG\\source\\repos\\SchoolManagement.MVC\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\RYANG\\source\\repos\\SchoolManagement.MVC\\wwwroot\\js\\jquery.scrolly.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.scrolly.min.js"
+    },
+    {
+      "Id": "C:\\Users\\RYANG\\source\\repos\\SchoolManagement.MVC\\wwwroot\\js\\js2\\breakpoints.min.js",
+      "PackagePath": "staticwebassets\\js\\js2\\breakpoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\RYANG\\source\\repos\\SchoolManagement.MVC\\wwwroot\\js\\js2\\browser.min.js",
+      "PackagePath": "staticwebassets\\js\\js2\\browser.min.js"
+    },
+    {
+      "Id": "C:\\Users\\RYANG\\source\\repos\\SchoolManagement.MVC\\wwwroot\\js\\js2\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\js2\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\RYANG\\source\\repos\\SchoolManagement.MVC\\wwwroot\\js\\js2\\main.js",
+      "PackagePath": "staticwebassets\\js\\js2\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\RYANG\\source\\repos\\SchoolManagement.MVC\\wwwroot\\js\\js2\\util.js",
+      "PackagePath": "staticwebassets\\js\\js2\\util.js"
+    },
+    {
+      "Id": "C:\\Users\\RYANG\\source\\repos\\SchoolManagement.MVC\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
       "Id": "C:\\Users\\RYANG\\source\\repos\\SchoolManagement.MVC\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\RYANG\\source\\repos\\SchoolManagement.MVC\\wwwroot\\js\\util.js",
+      "PackagePath": "staticwebassets\\js\\util.js"
     },
     {
       "Id": "C:\\Users\\RYANG\\source\\repos\\SchoolManagement.MVC\\wwwroot\\lib\\bootstrap\\LICENSE",

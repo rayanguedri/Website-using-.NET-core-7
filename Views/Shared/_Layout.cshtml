@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - SchoolManagement.MVC</title>
+    <title>@ViewData["Title"] - 3sixty</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap5.min.css">
@@ -28,11 +28,26 @@
                             <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="AboutUs">About us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
+                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Contact">Contact</a>
                          <li class="nav-item">
                             <a class="nav-link text-white" asp-area="" asp-controller="Clients" asp-action="Create"> Add Clients</a>
                         </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Studio">Studio</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Something">Something</a>
+                        </li>
+                        
+                        @if(User.Identity.IsAuthenticated){
+                             <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-controller="Clients" asp-action="Index">Clients</a>
+                        </li>
+                        }
+                    
+                       
                     </ul>
                     <partial name="_LoginPartial" />
                 </div>

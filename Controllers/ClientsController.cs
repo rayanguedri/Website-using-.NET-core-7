@@ -10,6 +10,7 @@ using SchoolManagement.MVC.Data;
 
 namespace SchoolManagement.MVC.Controllers
 {
+    
     public class ClientsController : Controller
     {
         private readonly ThreeSixtyDbContext _context;

@@ -23,6 +23,15 @@ namespace SchoolManagement.MVC.Controllers
             return View();
         }
 
+        public IActionResult Studio()
+        {
+            return View();
+        }
+        public IActionResult Something()
+        {
+            return View();
+        }
+
         public IActionResult AboutUs()
         {
             return View();
