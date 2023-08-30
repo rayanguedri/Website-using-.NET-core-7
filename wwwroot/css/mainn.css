@@ -96,7 +96,10 @@ input, select, textarea {
 
 	body {
 		background: #1b1f22;
-		background-image: url("https://htmlcolorcodes.com/assets/images/colors/rose-red-color-solid-background-1920x1080.png");
+		background-image: url("https://images5.alphacoders.com/130/1307132.jpg");
+		/*background-size:     cover;                     
+		background-repeat:   no-repeat;
+		background-position: center center;  */
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -108,7 +111,7 @@ input, select, textarea {
 			-webkit-transition: none !important;
 			-ms-transition: none !important;
 			transition: none !important;
-			background-image: url("https://htmlcolorcodes.com/assets/images/colors/rose-red-color-solid-background-1920x1080.png");
+		
 		}
 
 /* Type */
@@ -1298,10 +1301,17 @@ input, select, textarea {
 			line-height: 5.5rem;
 			border: solid 1px #ffffff;
 			border-radius: 100%;
+			background: url("https://w7.pngwing.com/pngs/969/963/png-transparent-achievement-awards-badge-designer-graphic-pen-tool-badges-achievements-solid-icon.png");
+			background-size:     cover;                      /* <------ */
+			background-repeat:   no-repeat;
+			background-position: center center;  
 		}
+
+		
 
 			#header .logo .icon:before {
 				font-size: 2rem;
+				
 			}
 
 		#header .content {
