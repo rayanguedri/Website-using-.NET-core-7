@@ -53,6 +53,10 @@ public partial class ThreeSixtyDbContext : DbContext
                 .HasMaxLength(50)
                 .IsUnicode(false)
                 .HasColumnName("ville");
+            entity.Property(e => e.Message)
+                .HasMaxLength(500)
+                .IsUnicode(false)
+                .HasColumnName("Message");
         });
 
         OnModelCreatingPartial(modelBuilder);

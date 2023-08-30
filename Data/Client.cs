@@ -26,4 +26,6 @@ public partial class Client
     public string Ville { get; set; } = null!;
 [Display(Name = "Date de naissance")]
     public DateTime DateNaissance { get; set; }
+
+    public string Message { get; set; } = null!;
 }

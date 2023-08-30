@@ -59,6 +59,13 @@
                 <input type="submit" value="Save Changes" class="btn btn-warning" />
                 <a class="btn btn-dark" asp-action="Index">Back to List</a>
             </div>
+            <br>
+            <div class="form-group">
+                <label asp-for="Message" class="control-label"></label>
+                <input asp-for="Message" class="form-control" />
+                <span asp-validation-for="Message" class="text-danger"></span>
+            </div>
+            
              
         </form>
     </div>
