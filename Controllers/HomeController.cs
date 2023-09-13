@@ -27,7 +27,7 @@ namespace SchoolManagement.MVC.Controllers
         {
             return View();
         }
-        public IActionResult Something()
+        public IActionResult Contact()
         {
             return View();
         }
